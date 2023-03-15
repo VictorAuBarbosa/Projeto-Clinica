@@ -1,0 +1,62 @@
+/* CSS */
+
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src: url(../Fontes/Montserrat-Bold.ttf) format('opentrue'),
+     url(../Fontes/Montserrat-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Nunito-ExtraLight';
+    src: url(../Fontes/Nunito-ExtraLight.ttf) format('opentrue'),
+     url(../Fontes/Nunito-ExtraLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+@font-face{
+    font-family: 'Nunito-Bold';
+    src: url(../Fontes/Nunito-Bold.ttf) format('opentrue'),
+     url(../Fontes/Nunito-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 667px) {
+
+.personal-image {
+    border-style: solid;
+    border-color: red;
+    margin: 3.125rem;
+    margin-left: 21.875rem;
+    margin-right: 150px;
+}
+
+  .personal-image input[type="file"] {
+    display: none;
+}
+
+.personal-figure {
+    display: flex;
+    position: static;
+    justify-content: flex-start;
+}
+
+div ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+}
+
+
+}
