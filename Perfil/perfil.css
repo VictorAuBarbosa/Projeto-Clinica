@@ -2,16 +2,16 @@
 
 @font-face{
     font-family: 'Montserrat-Bold';
-    src: url(../Fontes/Montserrat-Bold.ttf) format('opentrue'),
-     url(../Fontes/Montserrat-Bold.ttf) format('truetype');
+    src: url(/font/Montserrat-Bold.ttf) format('opentrue'),
+     url(/font/Montserrat-Bold.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'Nunito-ExtraLight';
-    src: url(../Fontes/Nunito-ExtraLight.ttf) format('opentrue'),
-     url(../Fontes/Nunito-ExtraLight.ttf) format('truetype');
+    src: url(/font/Nunito-ExtraLight.ttf) format('opentrue'),
+     url(/font/Nunito-ExtraLight.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
     font-size: 2.5rem;
@@ -19,44 +19,72 @@
 
 @font-face{
     font-family: 'Nunito-Bold';
-    src: url(../Fontes/Nunito-Bold.ttf) format('opentrue'),
-     url(../Fontes/Nunito-Bold.ttf) format('truetype');
+    src: url(/font/Nunito-Bold.ttf) format('opentrue'),
+     url(/font/Nunito-Bold.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
     font-size: 2.5rem;
 }
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 41.6875rem) {
 
-.personal-image {
-    border-style: solid;
-    border-color: red;
-    margin: 3.125rem;
-    margin-left: 21.875rem;
-    margin-right: 150px;
-}
+    body{
+        background-color: #E1FDEB;
+    }
 
-  .personal-image input[type="file"] {
+    .info {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+.personal-image { grid-area: 2 / 2 / 4 / 3; }
+.dados { grid-area: 2 / 3 / 5 / 7; }
+.menu { grid-area: 7 / 2 / 12 / 7; }
+
+.personal-image input[type="file"] {
     display: none;
 }
 
-.personal-figure {
-    display: flex;
-    position: static;
-    justify-content: flex-start;
+.nome{
+    font-family: 'Nunito-Bold';
+    font-size: 3.125rem;
 }
 
-div ul{
-    list-style-type: none;
-    display: inline-block;
+.elementos{
+    font-family: 'Nunito-Bold';
+    font-size: 1.875rem;
 }
 
-.info{
-    display: flex;
-    justify-content: center;
+.tabela{
+    padding: 10px;
+    border-spacing: 10px;
+}
+
+.table1{
+    margin-right: -10px;
+}
+
+.table{
+    margin-right: -10px;
+}
+
+.data{
+    text-align: end;
+}
+
+.status ul{
+    font-family: 'Nunito-Bold';
+    font-size: 1.875rem;
+    list-style: none;
+}
+
+.menu{
+    display: ;
     border-style: solid;
     border-color: red;
 }
-
 
 }
