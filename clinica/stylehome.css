@@ -1,0 +1,315 @@
+@media (min-width: 770px)
+{
+	body{
+		background-color: #B1FACA;
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1.875rem;
+		margin: 0px;
+	}
+	
+	/* Estilo para o cabeçalho da página */
+	header {
+		/* Define a cor de fundo como verde */
+		background-color: #64C27B; /* verde */
+	
+		/* Define o layout como flexbox e alinha os itens verticalmente */
+		display: flex;
+		align-items: center;
+	
+		/* Define a altura do cabeçalho como 80 pixels */
+		height: 6.25rem;
+	}
+	
+	/* Estilo para a imagem da logo */
+	.logo img {
+		/* Define a margem à esquerda da imagem como 20 pixels */
+		margin-left: 1.25rem;
+	
+		/* Define a altura da imagem como 60 pixels */
+		height: 6.25rem;
+	}
+	
+	/* Estilo para o menu de navegação */
+	nav {
+		/* Define o elemento como um item flexível com espaço restante */
+		flex: 1;
+	
+		/* Alinha o texto do menu centralizado */
+		text-align: center;
+		margin-right: 17.5rem;
+	}
+	
+	/* Estilo para a lista não ordenada do menu */
+	nav ul {
+		/* Remove a estilização padrão da lista */
+		list-style: none;
+	
+		/* Define margem e preenchimento como zero para remover espaços extras */
+		margin: 0;
+		padding: 0;
+	}	
+	
+	/* Estilo para os itens da lista do menu */
+	nav li {
+		/* Define o display como inline-block para ficar na mesma linha */
+		display: inline-block;
+	
+		/* Define a margem à esquerda como 20 pixels para separar os itens */
+		margin-left: 1.25rem;
+	}
+	
+	/* Estilo para os links do menu */
+	nav a {
+		/* Define a cor do texto como branco */
+		color: #fff;
+	
+		/* Remove a decoração padrão de links */
+		text-decoration: none;
+	
+		/* Define o tamanho da fonte como 18 pixels */
+		font-size: 1.4375rem;
+	}
+	
+	/* Estilo para os links do menu quando o mouse passa por cima */
+	nav a:hover {
+		/* Define a cor do texto como preto */
+		color: #000;
+	}
+	
+	.BL{
+	position: absolute;
+	right: 3.125rem;
+	top: 0px;
+		}
+		
+	/* formatação da imagem de botão de login - Tamanho */
+	.BL img{	
+	width: 6.25rem;
+	height: 6.05rem;
+	}
+
+        
+    .front2-img img{
+    margin-top: -10px;
+    height: 25rem;
+    }
+
+
+    .front3{
+    display: flex;
+   flex-direction: column;
+    width: 100%;
+    height: 56.25rem;
+    background-color: #B1FACA;
+    }
+
+    .div_cima{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 28.125rem;
+    }
+
+    .div_baixo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 28.125rem;
+    }
+    
+  
+  .hipertrofia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 7.8125rem;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #6BDA61 110%);
+    transition: background-color 0.5s ease;
+    }
+
+    .hipertrofia h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #000;
+        font-size: 40px;
+        
+    }
+
+    .hipertrofia:hover{
+        background-color: #00fc22;
+    }
+
+
+    .emagrecimento{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15.625rem;
+        height: 15.625rem;
+        border-radius: 7.8125rem;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #6BDA61 110%);
+        transition: background-color 0.5s ease;
+        }
+    
+        .emagrecimento h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #000;
+            font-size: 35px;
+        }
+
+        .emagrecimento:hover{
+            background-color: #00fc22;
+        }
+
+        .clinica_geral{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15.625rem;
+        height: 15.625rem;
+        border-radius: 7.8125rem;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #6BDA61 110%);
+        transition: background-color 0.5s ease;
+        }
+    
+        .clinica_geral h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #000;
+            font-size: 40px;
+        }
+
+        .clinica_geral:hover{
+            background-color: #00fc22;
+        }
+
+        .nutricao_materna{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15.625rem;
+        height: 15.625rem;
+        border-radius: 7.8125rem;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #6BDA61 110%);
+        transition: background-color 0.5s ease;
+        }
+
+    
+        .nutricao_materna h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #000;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .nutricao_materna:hover{
+            background-color: #00fc22;
+        }
+
+        .nutricao_esportiva {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15.625rem;
+        height: 15.625rem;
+        border-radius: 7.8125rem;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #6BDA61 110%);
+        transition: background-color 0.5s ease;
+        }
+    
+        .nutricao_esportiva h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #000;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .nutricao_esportiva:hover{
+            background-color: #00fc22;
+        }
+
+
+    footer{
+    background-color: #64C27B;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    }
+            
+    .contato img {
+     margin-left: 1.5rem;
+    height: 120px;
+     }
+
+footer .info{
+text-align: center;
+font-size: 0.8125rem;
+color: #fff;
+}
+		
+.fdp img{
+margin-right: 1.5rem;
+height: 120px;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320) and (max-width: 769px)
+{
+	body{
+		background-color: #B1FACA;
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1.875rem;
+		margin: 0px;
+	}
+
+	header {
+		/* Define a cor de fundo como verde */
+		background-color: #64C27B; /* verde */
+	
+		/* Define o layout como flexbox e alinha os itens verticalmente */
+		display: flex;
+		align-items: center;
+	
+		/* Define a altura do cabeçalho como 80 pixels */
+		height: 6.25rem;
+	}
+
+	.logo img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 1.25rem;
+		height: 6.25rem;
+	}
+
+    nav{
+        display: none;
+    }
+
+    .BL{
+        display: none;
+    }
+}
+

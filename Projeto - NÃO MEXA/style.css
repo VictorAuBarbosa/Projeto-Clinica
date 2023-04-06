@@ -1,0 +1,170 @@
+/* CSS */
+
+@media (min-width: 770px)
+{
+
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src: url(Fontes/Montserrat-Bold.ttf) format('opentrue'),
+     url(Fontes/Montserrat-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Nunito-ExtraLight';
+    src: url(Fontes/Nunito-ExtraLight.ttf) format('opentrue'),
+     url(Fontes/Nunito-ExtraLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+@font-face{
+    font-family: 'Nunito-Bold';
+    src: url(Fontes/Nunito-Bold.ttf) format('opentrue'),
+     url(Fontes/Nunito-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    /* Define a cor de fundo como verde */
+    background-color: #64C27B; /* verde */
+
+    /* Define o layout como flexbox e alinha os itens verticalmente */
+    display: flex;
+    align-items: center;
+
+    /* Define a altura do cabeçalho como 80 pixels */
+    height: 6.25rem;
+}
+
+/* Estilo para a imagem da logo */
+.logo img {
+    /* Define a margem à esquerda da imagem como 20 pixels */
+    margin-left: 1.25rem;
+
+    /* Define a altura da imagem como 60 pixels */
+    height: 6.25rem;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    /* Define o elemento como um item flexível com espaço restante */
+    flex: 1;
+
+    /* Alinha o texto do menu centralizado */
+    text-align: center;
+    margin-right: 17.5rem;
+}
+
+/* Estilo para a lista não ordenada do menu */
+nav ul {
+    /* Remove a estilização padrão da lista */
+    list-style: none;
+
+    /* Define margem e preenchimento como zero para remover espaços extras */
+    margin: 0;
+    padding: 0;
+}	
+
+/* Estilo para os itens da lista do menu */
+nav li {
+    /* Define o display como inline-block para ficar na mesma linha */
+    display: inline-block;
+
+    /* Define a margem à esquerda como 20 pixels para separar os itens */
+    margin-left: 1.25rem;
+}
+
+/* Estilo para os links do menu */
+nav a {
+    /* Define a cor do texto como branco */
+    color: #fff;
+
+    /* Remove a decoração padrão de links */
+    text-decoration: none;
+
+    /* Define o tamanho da fonte como 18 pixels */
+    font-size: 1.4375rem;
+}
+
+/* Estilo para os links do menu quando o mouse passa por cima */
+nav a:hover {
+    /* Define a cor do texto como preto */
+    color: #000;
+}
+
+
+body{
+    background-color: #E1FDEB;
+}
+
+.imagem-hiper{
+    text-align: center;
+    filter: drop-shadow(0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.25));
+    margin-bloc
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+    margin-bottom: 2.5rem;
+}
+
+main h3{
+    text-align: center;
+    font-family: 'Nunito-ExtraLight';
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+    font-size: 2rem;
+}
+
+.bloco{
+    background-color: #22A073;
+    text-align: center;
+    align-items: center;
+    display: block;
+    border: 0.0625rem solid #ccc;
+    padding: 0.625rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    height: 3.75rem;
+    width: 14.3125rem;
+    margin: 3.25rem auto; /* centraliza horizontalmente */
+    line-height: 3.75rem;
+    font-family: 'Nunito-Bold';
+    font-size: 1.125rem;
+}
+
+.agendamento{
+    font-family: 'Nunito-Bold';
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div a{
+    color: white;
+    font-family: 'Nunito-Bold';
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.bloco-centro{
+    font-family: 'Nunito-Bold';
+    font-size: 1.125rem;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: auto; /* centraliza verticalmente */
+    align-items: center;
+}
+
+}
