@@ -1,0 +1,74 @@
+html
+
+    <div class="ct">
+
+
+        <div class="tabela1">
+            <form>
+
+                <!-- Adiciona um rótulo e uma caixa de texto com calendário para a data de nascimento -->
+                <label for="Data">Data:</label>
+                <input type="Date" id="Data" name="Data" required><br><br>
+            </form>
+        </div>
+
+        <div class="tabela2">
+            <h3>Depois de amanhã</h3>
+        </div>
+        <div class="tabela3">
+            <h3>Amanhã</h3>
+        </div>
+    </div>
+
+
+
+
+
+css
+
+form{
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  padding: 5%;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: #D7FCE4;
+  font-size: 20px;
+}
+
+h3{
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  padding: 5%;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: #D7FCE4;
+  font-size: 20px;
+ 
+
+}
+
+.tabela1{
+  justify-content: right;
+  
+
+}
+
+.tabela2{
+  justify-content: left;
+}
+
+.tabela3{
+  justify-content: center;
+}
+
+.ct{
+
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}

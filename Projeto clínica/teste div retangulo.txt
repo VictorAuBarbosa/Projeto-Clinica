@@ -1,0 +1,48 @@
+body{
+    background-color: #D7FCE4;
+}
+
+form{
+font-size: 20px;
+text-align: right;
+}
+
+
+.retangulo{
+  background-color: #D7FCE4;
+  width: 1000px;
+  height:200px;
+  border: 5px;
+  border-radius: 40px;
+  border-color: black;
+  border-style: solid;
+  justify-items: center;
+  
+}
+
+.Depois{
+text-align: center;
+border-color: black;
+border-style: solid;
+height: 80px;
+
+}
+
+
+
+html
+
+
+<div class="retangulo">
+     <div class="Amanha"><h2>Amanhã</h2></div>
+     <div class="Depois"><h2>Depois de amanhã</h2></div>
+    <div> 
+        <form>
+         <!-- Adiciona um rótulo e uma caixa de texto com calendário para a data de nascimento -->
+         <label for="Data">Data:</label>
+         <input type="Date" id="Data" name="Data" required><br><br>
+        </form>
+    </div>
+</div>
+    
+

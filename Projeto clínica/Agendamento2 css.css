@@ -1,0 +1,22 @@
+body{
+    background-color: #D7FCE4;
+}
+
+h1{
+    text-align: center;
+    margin: 5%
+}
+
+
+select{
+  
+  width: 60%;
+  height: 40px;
+  padding: 5px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: #D7FCE4;
+  font-size: 20px;
+}
+
+

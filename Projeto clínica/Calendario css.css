@@ -1,0 +1,68 @@
+body{
+    background-color: #D7FCE4;
+}
+
+form{
+font-size: 20px;
+text-align: right;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 2 / 2 / 3 / 5; 
+  height: 160px;
+  justify-content: center;
+
+}
+  
+  
+  
+  .div2 { grid-area: 2 / 2 / 3 / 3; 
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  
+
+
+}
+  
+  
+  
+  .div3 { grid-area: 2 / 3 / 3 / 4; 
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+
+
+
+  }
+  
+  
+  
+  .div4 { grid-area: 2 / 4 / 3 / 5; 
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+
+
+
+  }
+
+
+
+
+
+
+
