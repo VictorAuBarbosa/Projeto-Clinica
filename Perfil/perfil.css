@@ -36,26 +36,27 @@
     .info {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(11, 1fr);
+        grid-template-rows: repeat(8, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
 
 /* Grids da página*/
-.personal-image { grid-area: 2 / 2 / 4 / 3; }
-.dados { grid-area: 2 / 3 / 5 / 7; }
-.menu { grid-area: 7 / 2 / 11 / 7; }
-.dadocad { grid-area: 7 / 2 / 8 / 3; }
-.receitas { grid-area: 8 / 2 / 9 / 3; }
-.agendados { grid-area: 9 / 2 / 10 / 3; }
-.historico { grid-area: 10 / 2 / 11 / 3; }
-.receitastab { grid-area: 7 / 3 / 11 / 7; }
-.agendadostab { grid-area: 7 / 3 / 11 / 7; }
-.historicotab { grid-area: 7 / 3 / 11 / 7; }
+.personal-image { grid-area: 1 / 3 / 3 / 4; }
+.dados { grid-area: 1 / 4 / 3 / 6; }
+.menu { grid-area: 2 / 3 / 8 / 6; }
+.dadocad { grid-area: 4 / 3 / 5 / 4; }
+.receitas { grid-area: 5 / 3 / 6 / 4; }
+.agendados { grid-area: 6 / 3 / 7 / 4; }
+.historico { grid-area: 7 / 3 / 8 / 4; }
+.receitastab { grid-area: 4 / 4 / 8 / 6; }
+.agendadostab { grid-area: 4 / 4 / 8 / 6; }
+.historicotab { grid-area: 4 / 4 / 8 / 6; }
 
 /*Input da Imagem*/
 .personal-image input[type="file"] {
     display: none;
+    border-style: solid;
 }
 
 /* Classe para o nome do cliente*/
@@ -96,58 +97,75 @@
 
 /*Div principal para o menu*/
 .menu{
+    display: flex;
     border-style: solid;
-    border-color: red;
+    border-color: black;
     background-color: #9CE38C;
-    width: 76.6875rem;
-    height: 26.5rem;
-    justify-content: center;
+    width: 1227px;
+    height: 424px;
     margin: auto;
     border-radius: 44px;
 }
 
 .secoes{
-
-}
-
-.cliente{
+    width: 951px;
+    height: 424px;
     display: flex;
-    font-family: 'Nunito-Bold';
-    font-size: 20px;
-    border-style: solid;
-    border-color: blueviolet;
-    width: 17.25rem;
-    height: 26.5rem;
-    border-radius: 44px;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 44px;
+    border-bottom-right-radius: 44px;
+    border-left: 2px solid black;
 }
 
 .dadocad{
-    border-style: solid;
-    border-color: blue;
+    font-family: 'Nunito-Bold';
+    font-size: 20px;
+    width: 276px;
     text-align: center;
-    height: 104.5px;
-    margin: 0px;
+    height: 100px;
+    border-top-left-radius: 44px;
+    border-bottom: 1px solid black;
 }
 
 .receitas{
-    border-style: solid;
-    border-color: yellow;
+    font-family: 'Nunito-Bold';
+    font-size: 20px;
+    width: 276px;
     text-align: center;
-    height: 104.5px;
+    height: 100px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .agendados{
-    border-style: solid;
-    border-color: cyan;
+    font-family: 'Nunito-Bold';
+    font-size: 20px;
+    width: 276px;
     text-align: center;
-    height: 104.5px;
+    height: 100px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .historico{
-    border-style: solid;
-    border-color: chocolate;
+    font-family: 'Nunito-Bold';
+    font-size: 20px;
+    width: 276px;
     text-align: center;
-    height: 104.5px;
+    height: 100px;
+    border-bottom-left-radius: 44px;
+    border-top: 1px solid black;
 }
+
+.historico h4{
+    margin-top: 15%;
+}
+
+.dadocad, .receitas, .agendados, .historico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
