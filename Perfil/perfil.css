@@ -90,107 +90,81 @@
 
 /*Div principal para o menu*/
 .menu{
-    display: flex;
-    border-style: solid;
-    border-color: black;
-    background-color: #9CE38C;
-    width: 1227px;
+    display: block;
+    width: 1226px;
     height: 424px;
-    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 25%;
     border-radius: 44px;
+    background: #9CE38C;
 }
 
-.secoes{
-    width: 951px;
+.navmenu{
+    display: block;
+    position: absolute;
     height: 424px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 44px;
-    border-bottom-right-radius: 44px;
-    border-left: 2px solid black;
+    width: 276px;
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 44px;
 }
 
 .dadocad{
-    font-family: 'Nunito-Bold';
-    font-size: 20px;
-    width: 276px;
-    text-align: center;
-    height: 106px;
-    border-top-left-radius: 41px;
-    border-bottom: 1px solid black;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    display: flex;
+    height: 105.9px;
+    width: 274.9px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -22px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
-
-.dadocad:hover{
-    background-color: #81c27d;
+.dadocad h4{
+    font-family: 'Nunito-Bold';
+    font-size: 25px;
+    text-align: center;
 }
 
 .receitas{
-    background-color: #63A355;
-    font-family: 'Nunito-Bold';
-    font-size: 20px;
-    width: 276px;
-    text-align: center;
-    height: 106px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    display: block;
+    height: 105.9px;
+    width: 274.9px;
+    margin-top: -22px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
-.receitas:hover{
-    background-color: #407935;
+.receitas h4{
+
 }
+
 
 .agendados{
-    background-color: #63A355;
-    font-family: 'Nunito-Bold';
-    font-size: 20px;
-    width: 276px;
-    text-align: center;
-    height: 106px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    display: block;
+    height: 105.9px;
+    width: 274.9px;
+    margin-top: -22px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
-.agendados:hover{
-    background-color: #407935;
+.agendados h4{
+
 }
+
 
 .historico{
-    background-color: #63A355;
-    font-family: 'Nunito-Bold';
-    font-size: 20px;
-    width: 276px;
-    text-align: center;
-    height: 101px;
-    border-bottom-left-radius: 41px;
-    border-top: 1px solid black;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    display: block;
+    height: 105.9px;
+    width: 274.9px;
+    margin-top: -22px;
+    border-right: 2px solid black;
 }
 
-.historico h4{
-    margin-top: 10%;
+.historico h4 {
+
 }
 
-.historico:hover{
-    background-color: #407935;
-}
-
-.dadocad, .receitas, .agendados, .historico {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
 }
