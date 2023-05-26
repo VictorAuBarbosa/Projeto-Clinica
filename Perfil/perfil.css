@@ -102,7 +102,7 @@
 
 .navmenu{
     display: block;
-    position: absolute;
+    
     height: 424px;
     width: 276px;
     border-top-left-radius: 44px;
@@ -111,13 +111,17 @@
 
 .dadocad{
     display: flex;
-    height: 105.9px;
+    height: 108px;
     width: 274.9px;
     align-items: center;
     flex-direction: column;
-    margin-top: -22px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-top-left-radius: 42px;
+    transition-duration: 0.4s;
+}
+
+.dadocad:hover{
+    background-color: #81c27d;
+    cursor: pointer;
 }
 
 .dadocad h4{
@@ -128,43 +132,80 @@
 
 .receitas{
     display: block;
-    height: 105.9px;
+    height: 108px;
     width: 274.9px;
-    margin-top: -22px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin-top: -36px;
+    background-color: #63A355;
+    transition-duration: 0.4s;
+}
+
+.receitas:hover{
+    background-color: #407935;
+    cursor: pointer;
 }
 
 .receitas h4{
-
+    font-family: 'Nunito-Bold';
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 
 .agendados{
     display: block;
-    height: 105.9px;
+    height: 108px;
     width: 274.9px;
-    margin-top: -22px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    margin-top: -35px;
+    background-color: #63A355;
+    transition-duration: 0.4s;
+}
+
+.agendados:hover{
+    background-color: #407935;
+    cursor: pointer;
 }
 
 .agendados h4{
-
+    font-family: 'Nunito-Bold';
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 
 .historico{
     display: block;
-    height: 105.9px;
+    height: 108px;
+    height: 25%;
     width: 274.9px;
-    margin-top: -22px;
-    border-right: 2px solid black;
+    margin-top: -35px;
+    background-color: #63A355;
+    border-bottom-left-radius: 42px;
+    transition-duration: 0.4s;
+}
+
+.historico:hover{
+    background-color: #407935;
+    cursor: pointer;
 }
 
 .historico h4 {
-
+    font-family: 'Nunito-Bold';
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
-
 
 }
