@@ -90,7 +90,7 @@
 
 /*Div principal para o menu*/
 .menu{
-    display: block;
+    display: flex;
     width: 1226px;
     height: 424px;
     border-style: solid;
@@ -207,5 +207,68 @@
     align-items: center;
     height: 100%;
 }
+
+.pessoal{
+    width: 940px;
+    height: 424px;
+    display: flex;
+    border-style: solid;
+    border-color: coral;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 470px;
+}
+
+#mail{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+
+}
+
+#tel{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+}
+
+#cep{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+}
+
+#end{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+}
+
+#change{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+}
+
+#altura{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+}
+
+#numero{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+}
+
 
 }
