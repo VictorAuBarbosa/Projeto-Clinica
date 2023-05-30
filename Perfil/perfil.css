@@ -18,6 +18,15 @@
 }
 
 @font-face{
+    font-family: 'Nunito-Regular';
+    src: url(/font/Nunito-Regular.ttf) format('opentrue'),
+     url(/font/Nunito-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+@font-face{
     font-family: 'Nunito-Bold';
     src: url(/font/Nunito-Bold.ttf) format('opentrue'),
      url(/font/Nunito-Bold.ttf) format('truetype');
@@ -209,17 +218,15 @@
 }
 
 .pessoal{
-    width: 940px;
+    width: 950px;
     height: 424px;
     display: flex;
-    border-style: solid;
-    border-color: coral;
+    display: none;
 }
 
 .leftside{
     display: flex;
     flex-direction: column;
-    border-style: solid;
     justify-content: center;
     align-items: center;
     width: 470px;
@@ -230,7 +237,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-style: solid;
     width: 470px;
 }
 
@@ -255,9 +261,51 @@
     font-family: 'Nunito-Bold';
 }
 
-#change{
-    font-size: 25px;
+.button-6{
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
     font-family: 'Nunito-Bold';
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+  
+.button-6:hover,
+.button-6:focus{
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+  
+.button-6:hover{
+    transform: translateY(-1px);
+}
+  
+.button-6:active{
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
 }
 
 #altura{
@@ -270,5 +318,75 @@
     font-family: 'Nunito-Bold';
 }
 
+.receitastab{
+    width: 950px;
+    height: 424px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    
+}
+
+.requisitadas{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+    text-align: center;
+}
+
+.desc{
+    font-size: 25px;
+    font-family: 'Nunito-Regular';
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.agendadostab{
+    width: 950px;
+    height: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-contender{
+    width: 853px;
+    height: 381px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    justify-content: center;
+}
+
+#agendados-tittle{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.tab-contender-2{
+    font-size: 25px;
+    font-family: 'Nunito-Regular';
+    width: 853px;
+    height: 324px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+}
+
+.section-1{
+    display: flex;
+}
+
+.section-2{
+    display: flex;
+}
+
+#marcada{
+    padding-left: 25px
+}
 
 }
