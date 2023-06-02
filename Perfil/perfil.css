@@ -348,14 +348,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: noe;
 }
 
-.tab-contender{
+.tab-container{
     width: 853px;
     height: 381px;
     background-color: #FFFFFF;
     border-radius: 35px;
     justify-content: center;
+    border: solid 2px;
 }
 
 #agendados-tittle{
@@ -363,10 +365,9 @@
     font-family: 'Nunito-Bold';
     text-align: center;
     padding-top: 5px;
-
 }
 
-.tab-contender-2{
+.tab-container-2{
     font-size: 25px;
     font-family: 'Nunito-Regular';
     width: 853px;
@@ -379,14 +380,104 @@
 
 .section-1{
     display: flex;
+    align-items: center;
+}
+
+.section-1 p{
+    margin: 0;
 }
 
 .section-2{
     display: flex;
+    align-items: center;
+}
+
+.section-2 p{
+    margin: 0;
 }
 
 #marcada{
-    padding-left: 25px
+    padding-left: 25px;
+    padding-right: 20px;
 }
+
+.blocoAgendado{
+    margin-left: 350px;
+    font-size: 17px;
+    font-family: 'Nunito-Bold';
+    background-color: #E74646;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 44px;
+    border-radius: 37px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.blocoAguardando{
+    margin-left: 178px;
+    font-size: 17px;
+    font-family: 'Nunito-Bold';
+    background-color: #FDA237;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 44px;
+    border-radius: 37px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.blocoAguardeAcao{
+    margin-left: 178px;
+    font-size: 17px;
+    font-family: 'Nunito-Bold';
+    background-color: #FDA237;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 80px;
+    border-radius: 13px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: none;
+}
+
+.blocoAguardeAcao p{
+    text-align: center;
+}
+
+.historicotab{
+    width: 950px;
+    height: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#historico-tittle{
+    font-size: 25px;
+    font-family: 'Nunito-Bold';
+    text-align: center;
+    padding-top: 5px;
+}
+
+.blocoConclusao{
+    margin-left: 350px;
+    font-size: 17px;
+    font-family: 'Nunito-Bold';
+    background-color: #67FC4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 135px;
+    height: 44px;
+    border-radius: 37px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+
 
 }
