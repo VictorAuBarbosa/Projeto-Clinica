@@ -193,7 +193,6 @@
 
 .historico{
     display: block;
-    height: 108px;
     height: 25%;
     width: 274.9px;
     margin-top: -35px;
@@ -221,7 +220,7 @@
     width: 950px;
     height: 424px;
     display: flex;
-    display: none;
+
 }
 
 .leftside{
@@ -321,7 +320,6 @@
 .receitastab{
     width: 950px;
     height: 424px;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     display: none;
@@ -345,10 +343,9 @@
 .agendadostab{
     width: 950px;
     height: 424px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    display: noe;
+    display: none;
 }
 
 .tab-container{
@@ -451,7 +448,6 @@
 .historicotab{
     width: 950px;
     height: 424px;
-    display: flex;
     justify-content: center;
     align-items: center;
     display: none;
@@ -479,5 +475,6 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
 }
 
-
+.navmenu > div.active {
+    
 }
