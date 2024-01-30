@@ -1,0 +1,97 @@
+/* CSS */
+
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src: url(Fontes/Montserrat-Bold.ttf) format('opentrue'),
+     url(Fontes/Montserrat-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Nunito-ExtraLight';
+    src: url(Fontes/Nunito-ExtraLight.ttf) format('opentrue'),
+     url(Fontes/Nunito-ExtraLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+@font-face{
+    font-family: 'Nunito-Bold';
+    src: url(Fontes/Nunito-Bold.ttf) format('opentrue'),
+     url(Fontes/Nunito-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+
+body{
+    background-color: #E1FDEB;
+}
+
+.imagem-hiper{
+    text-align: center;
+    filter: drop-shadow(0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.25));
+    margin-bloc
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+    margin-bottom: 2.5rem;
+}
+
+main h3{
+    text-align: center;
+    font-family: 'Nunito-ExtraLight';
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+    font-size: 2rem;
+}
+
+.bloco{
+    background-color: #22A073;
+    text-align: center;
+    align-items: center;
+    display: block;
+    border: 0.0625rem solid #ccc;
+    padding: 0.625rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    height: 3.75rem;
+    width: 14.3125rem;
+    margin: 3.25rem auto; /* centraliza horizontalmente */
+    line-height: 3.75rem;
+    font-family: 'Nunito-Bold';
+    font-size: 1.125rem;
+}
+
+.agendamento{
+    font-family: 'Nunito-Bold';
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div a{
+    color: white;
+    font-family: 'Nunito-Bold';
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.bloco-centro{
+    font-family: 'Nunito-Bold';
+    font-size: 1.125rem;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: auto; /* centraliza verticalmente */
+    align-items: center;
+}
+
