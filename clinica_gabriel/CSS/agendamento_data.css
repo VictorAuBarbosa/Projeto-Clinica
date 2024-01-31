@@ -60,6 +60,7 @@ flex-direction: column;
   height: 15.9375rem;
   border: 3px solid #000000;
   border-radius: 2.5rem 0rem 0rem 2.5rem;
+  transition: box-shadow 0.3s ease-in-out
   }
   
   .caixa2{
@@ -72,6 +73,7 @@ flex-direction: column;
   width: 26rem;
   height: 15.9375rem;
   border: 3px solid #000000;
+  transition: box-shadow 0.3s ease-in-out
   }
   
   .caixa3{
@@ -85,6 +87,7 @@ flex-direction: column;
   height: 15.9375rem;
   border: 3px solid #000000;
   border-radius: 0rem 2.5rem 2.5rem 0rem;
+  transition: box-shadow 0.3s ease-in-out
   }
 
   label {

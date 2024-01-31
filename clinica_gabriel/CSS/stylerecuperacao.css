@@ -296,9 +296,8 @@ height: 90%;
   }
 
   footer{
-    position: fixed;
     background-color: #64C27B;
-    bottom: 0px;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -311,13 +310,10 @@ height: 90%;
     height: 120px;
      }
 
-footer h1{
+footer .info{
 text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 250;
-font-size: 1.7rem;
+font-size: 0.8125rem;
 color: #fff;
-margin-bottom: 2.625rem;
 }
 		
 .fdp img{
