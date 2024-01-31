@@ -18,6 +18,7 @@ header {
 
     /* Define a altura do cabeçalho como 80 pixels */
     height: 6.25rem;
+    margin-bottom: 183px;
 }
 
 .logo{
@@ -283,6 +284,7 @@ height: 120px;
     flex-direction: column;
     align-items: flex-start;
     margin: 183px auto; 
+    margin-top: 0px;
     background-color: #64C27B;
 }
 
@@ -383,4 +385,7 @@ height: 120px;
     align-items: center;
 }
 
-.
+.above{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
