@@ -393,13 +393,16 @@ height: 120px;
     margin: 183px auto;
     margin-top: 0px;
     margin-bottom: 0px;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .pesquisa{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
     margin: 0px auto;
+    flex-direction: column-reverse;
 }
 
 .search-container{
@@ -435,14 +438,14 @@ input#search-bar{
    }
  }
 
-.search-icon{
+ .search-icon {
   position: relative;
   float: right;
   width: 75px;
   height: 75px;
-  top: -62px;
+  margin-bottom: -62px;
+  bottom: 60px;
   right: -45px;
-  margin-bottom: 0px;
 }
 
 
