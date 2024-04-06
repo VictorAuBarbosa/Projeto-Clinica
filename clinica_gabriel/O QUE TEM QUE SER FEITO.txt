@@ -6,7 +6,7 @@ Sobre - Ok
 Unidades - Ok 
 Agendamentos - linkar as páginas em sequencia e arrumar botão 
 Exames - Criar página
-botão login - adicionar link para tela de cadastro
+botão login - adicionar link para tela de cadastro - Ok
 Esqueceu a senha - Ok
 Cadastre-se - Ok 
 tela de deslogar - criar página 
