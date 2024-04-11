@@ -4,6 +4,18 @@ const navmenuItems = document.querySelectorAll('.navmenu > div');
 // Obtém todas as seções
 const sections = document.querySelectorAll('.all > div');
 
+// Define uma altura fixa para todas as seções
+let maxHeight = 0;
+sections.forEach((section) => {
+  const sectionHeight = section.offsetHeight;
+  if (sectionHeight > maxHeight) {
+    maxHeight = sectionHeight;
+  }
+});
+sections.forEach((section) => {
+  section.style.height = maxHeight + 'px';
+});
+
 // Adiciona um ouvinte de evento de clique a cada elemento da div navmenu
 navmenuItems.forEach((item, index) => {
   item.addEventListener('click', () => {
@@ -21,6 +33,6 @@ navmenuItems.forEach((item, index) => {
     });
 
     // Exibe a seção correspondente ao índice do elemento clicado
-    sections[index].style.display = 'block';
+    sections[index].style.display = 'flex';
   });
 });
