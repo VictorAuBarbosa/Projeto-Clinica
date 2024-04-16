@@ -36,3 +36,34 @@ function redirectToPage() {
     window.location.href = "agendamento_profissional.html";
     }
   }
+
+// Função para obter a data de amanhã
+   function obterDataAmanha() {
+    var hoje = new Date();
+    var amanha = new Date(hoje);
+    amanha.setDate(hoje.getDate() + 1);
+    return amanha;
+}
+
+// Função para formatar a data no formato desejado (dd)
+function formatarData(data) {
+    var dia = data.getDate();
+    return dia;
+}
+
+// Função para obter a data depois de amanhã
+function obterDataDepoisAmanha() {
+  var hoje = new Date();
+  var depois_amanha = new Date(hoje);
+  depois_amanha.setDate(hoje.getDate() + 2);
+  return depois_amanha;
+}
+
+// Função para formatar a data no formato desejado (dd)
+function formatarData(data) {
+  var dia = data.getDate();
+  return dia;
+}
+
+document.getElementById('dataAmanha').textContent = formatarData(obterDataAmanha());
+document.getElementById('DataDepoisAmanha').textContent = formatarData(obterDataDepoisAmanha());
