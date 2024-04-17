@@ -32,9 +32,10 @@ body{
 }
 
 .botaoCancelar{
-  margin-right: 3.125rem;
-  width: 3.125rem;
-  height: 3.125rem;
+    top: 85vh; /* Define a posição superior (85% da altura da janela) */
+    right: 4vh; /* Define a posição direita (10% da altura da janela) */
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 
@@ -128,19 +129,26 @@ h1{
             height: 33.34%;
         }
 
-        .hr1{
+        .hr1 {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 135px;
             height: 50px;
+            cursor: pointer;
         }
+        
+        .caixa.selecionada {
+            background-color: #e4bae0;
+        }
+        
         .hr2{
             display: flex;
             justify-content: center;
             align-items: center;
             width: 135px;
             height: 50px;
+            cursor: pointer;
         }
         .hr3{
             display: flex;
@@ -148,6 +156,7 @@ h1{
             align-items: center;
             width: 135px;
             height: 50px;
+            cursor: pointer;
         }
         .hr4{
             display: flex;
@@ -155,6 +164,7 @@ h1{
             align-items: center;
             width: 135px;
             height: 50px;
+            cursor: pointer;
         }
         .hr5{
             display: flex;
@@ -162,6 +172,7 @@ h1{
             align-items: center;
             width: 135px;
             height: 50px;
+            cursor: pointer;
         }
         .hr6{
             display: flex;
@@ -169,6 +180,7 @@ h1{
             align-items: center;
             width: 135px;
             height: 50px;
+            cursor: pointer;
         }
 
         .horarios p {
@@ -194,11 +206,9 @@ h1{
   justify-content: end;
 }
 
-.botaoAvancar{
-    position: fixed;
-    top: 85vh;
-    right: 10vh;
-  margin-right: 3.125rem;
+.botaoAvancar {
+    top: 85vh; /* Define a posição superior (85% da altura da janela) */
+    right: 4vh; /* Define a posição direita (10% da altura da janela) */
     width: 5rem;
     height: 5rem;
     transform: rotate(90deg);
